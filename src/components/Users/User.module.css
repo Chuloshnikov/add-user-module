@@ -1,0 +1,55 @@
+.userContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+
+}
+
+.nameContainer{
+    min-width: 150px;
+    text-align: center;
+}
+
+.userName {
+    font-size: 14px;
+    margin: 10px 25px 5px 0px;
+}
+
+.userEmail {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: -20px 10px 10px -2px;
+    
+}
+
+.avatar {
+    position: relative;
+    top:16%;
+    left: 27%;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.addIcon {
+    background-color: rgb(165, 158, 158);
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 20%;
+    left: 8%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.addIcon:hover {
+    transform: scale(1.3);
+}
+
+.emailIcon {
+    margin: 2px -1px 0px 0px;
+    padding-right: 2px;
+}
